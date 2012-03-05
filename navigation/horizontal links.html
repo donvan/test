@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>horizontal links</title>
+<link rel="stylesheet" media="screen, projection" href="reset.css" />
+<style>
+nav[role="navigation"] li {
+	float: left;
+	font-size: 14px;
+	border-right: 1px solid #ddd;
+	}
+nav[role="navigation"] li:last-child {
+	border-right: none;
+	}
+nav[role="navigation"] li a {
+	float: left;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #999;
+	border-radius: 4px;
+	}
+nav[role="navigation"] li a:hover,
+nav[role="navigation"] li a:focus {
+	color: #333;
+	}
+nav[role="navigation"] li a:active {
+	color: #666;
+	}
+nav[role="navigation"] li.active a {
+	font-weight: bold;
+	color: #333;
+	}															
+</style>
+</head>
+
+<body>
+<nav role="navigation">
+	<ul>
+		<li><a href="#">This is a link</a></li>
+		<li class="active"><a href="#">Active Link</a></li>
+		<li><a href="#">Lorem link</a></li>
+		<li><a href="#">Dolor link two</a></li>
+		<li><a href="#">Here is a link</a></li>
+	</ul>
+</nav>						
+</body>
+</html>
